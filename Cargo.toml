@@ -1,0 +1,12 @@
+[package]
+name = "i18n_on_rs"
+version = "0.1.0"
+authors = ["Bruno Arueira <contato@brunoarueira.com>"]
+edition = "2018"
+
+[dependencies]
+rutie = "0.8.0"
+
+[lib]
+name = "i18n_on_rs"
+crate-type = ["cdylib"]

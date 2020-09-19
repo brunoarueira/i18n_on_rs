@@ -24,4 +24,9 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\u0000").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
   spec.require_paths = ['lib']
+
+  spec.extensions << 'ext/Rakefile'
+
+  spec.add_runtime_dependency 'rutie', '~> 0.0.4'
+  spec.add_runtime_dependency 'thermite', '~> 0'
 end

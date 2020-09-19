@@ -4,8 +4,10 @@
 /coverage/
 /doc/
 /pkg/
-/spec/reports/
 /tmp/
 
-# rspec failure tracking
-.rspec_status
+mkmf.log
+target/
+Gemfile.lock
+Cargo.lock
+lib/*.so
